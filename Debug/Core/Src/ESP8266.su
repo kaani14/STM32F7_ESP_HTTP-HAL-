@@ -1,0 +1,5 @@
+ESP8266.c:25:6:uart_transmit	16	static
+ESP8266.c:33:6:ESP8266_Test	8	static
+ESP8266.c:54:6:ESP8266_WiFiSetup	16	static
+ESP8266.c:65:6:TCP_Connect	16	static
+ESP8266.c:76:6:TS_Write	32	static
