@@ -39,11 +39,11 @@ bool ESP8266_Test()
 	{
 		OK_received = strstr((const char*)rx_data, ok);
 		if (strcmp(OK_received, ok) == 0)
-			{
-				__HAL_TIM_DISABLE(&htim14);
-				HAL_GPIO_WritePin(GPIOB, LD1_Pin, GPIO_PIN_SET);
-				return true;
-			}
+		{
+			__HAL_TIM_DISABLE(&htim14);
+			HAL_GPIO_WritePin(GPIOB, LD1_Pin, GPIO_PIN_SET);
+			return true;
+		}
 	}
 	__HAL_TIM_DISABLE(&htim14);
 	HAL_GPIO_WritePin(GPIOB, LD3_Pin, GPIO_PIN_SET);
