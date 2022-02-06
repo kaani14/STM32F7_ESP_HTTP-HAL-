@@ -15,6 +15,6 @@ PA0  | Rx
 
 # User files
 
-* **Esp8266.h**: Structure and function declaration
+* **ESP8266.h**: Structure and function declaration
 
-* **Esp8266.c**: Definition of functions to communicate with ESP-8266. The file has functions that tests the ESP, connects to WiFi and sends HTTP request.
+* **ESP8266.c**: Definition of functions to communicate with ESP-8266. The file has functions that tests the ESP, connects to WiFi and sends HTTP request.
